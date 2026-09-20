@@ -11,6 +11,9 @@ dependencies = [
     "python-dotenv>=1.0",
     "slowapi>=0.1.10",
 ]
+license = "MIT"
+license-files = ["LICENSE"]
+
 
 [project.optional-dependencies]
 dev = [
@@ -24,7 +27,3 @@ build-backend = "setuptools.build_meta"
 
 [tool.setuptools.packages.find]
 include = ["app*"]
-
-[project]
-license = "MIT"
-license-files = ["LICENSE"]
